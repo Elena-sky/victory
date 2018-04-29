@@ -1,0 +1,127 @@
+body {
+  font-size: 18px;
+  color: #333333;
+  /*font-family: "Open Sans", Arial, sans-serif; */
+}
+
+.header-section {
+  background-color: #172345;
+  background-image: url("../img/background-women.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .header-section a.nav-link.disabled.nav-block__nav-link {
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #333333; }
+  .header-section img.you-victorious-block__img {
+    max-width: 186px;
+    height: auto;
+    fill: #333333; }
+  .header-section ul.navbar-nav.nav-block {
+    width: 100%;
+    display: flex;
+    justify-content: space-around; }
+  .header-section .you-victorious-row {
+    padding-top: 4.444rem;
+    padding-bottom: 11rem; }
+    .header-section .you-victorious-row .you-victorious-block .you-victorious-block__img {
+      display: block;
+      margin: 0 auto; }
+    .header-section .you-victorious-row .you-victorious-block .you-victorious-block__title {
+      margin-top: 140px;
+      font-size: 5rem;
+      text-align: center;
+      text-transform: uppercase;
+      color: #cc0000;
+      font-weight: 900; }
+    .header-section .you-victorious-row .you-victorious-block .you-victorious-block__signup {
+      display: block;
+      width: 200px;
+      color: #ffffff;
+      font-size: 22px;
+      padding: 15px 50px;
+      background-color: #ce0808;
+      text-transform: uppercase;
+      margin: 75px auto 0 auto; }
+
+.about-section {
+  background-color: #ce0808;
+  color: #ffffff;
+  padding-top: 5.556rem;
+  padding-bottom: 13.33rem; }
+.about-section .about-row-one .about-row-one__text {
+  padding-right: 4.211rem; }
+.about-section .about-row-two {
+  margin-top: 3.889rem; }
+.about-section .about-row-three {
+  margin-top: 3.889rem; }
+.about-section .about-row-three .about-row-three__text {
+  padding-right: 4.211rem; }
+
+.forpublishers-section {
+  background-color: #fffff;
+  color: #333333;
+  padding-top: 7.222rem;
+  padding-bottom: 15.56rem; }
+.forpublishers-section .forpublishers-row-one {
+  margin-bottom: 16.56rem; }
+.forpublishers-section .container {
+  position: relative; }
+.forpublishers-section .background-text {
+  position: absolute;
+  left: -170px;
+  top: 94px;
+  line-height: 250px;
+  z-index: -1;
+  /*overflow: hidden;*/
+  font-size: 230px;
+  font-weight: 900;
+  color: rgba(51, 51, 51, 0.05); }
+
+.forpublishers-section .background-text span {
+  font-size: 390px; }
+.foradvertisers-section {
+  background-color: #ce0808;
+  color: #ffffff;
+  padding-top: 10.56rem;
+  padding-bottom: 16.67rem; }
+.foradvertisers-section .foradvertisers-row-one {
+  margin-bottom: 6.111rem; }
+
+.contacts-section {
+  background-color: #fffff;
+  color: #333333;
+  padding-top: 6.111rem;
+  padding-bottom: 9.722rem; }
+.contacts-section .background-text {
+  position: relative;
+  left: -180px;
+  top: 94px;
+  line-height: 0px;
+  z-index: -1;
+  font-size: 400px;
+  font-weight: 900;
+  color: rgba(51, 51, 51, 0.05); }
+
+.contacts-section .background-text span {
+  font-size: 280px; }
+.contacts-section .contacts-row-one {
+  margin-bottom: 3.5rem; }
+.contacts-section .contacts-row-two {
+  padding-bottom: 2.5rem; }
+.contacts-section .contact-form__name,
+.contacts-section .contact-form__email,
+.contacts-section .contact-form__message {
+  display: block;
+  width: 100%;
+  margin-bottom: 1.111rem;
+  padding-left: 0.5556rem;
+  border: 2px solid; }
+.contacts-section .contact-form__submit {
+  border-radius: 0px;
+  background-color: #ce0808;
+  font-size: 22px;
+  padding: 0rem 2.778rem;
+  color: #ffffff;
+  text-transform: uppercase; }
