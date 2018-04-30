@@ -11,9 +11,6 @@
             </div>
         @endif
 
-        You are logged in!
-
-
         <!-- login form -->
         <div class="row login-row">
             <div class="col-md-6 offset-md-3 login-row__form">
