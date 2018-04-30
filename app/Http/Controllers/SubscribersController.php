@@ -29,4 +29,20 @@ class SubscribersController extends Controller
 
         return redirect('/');
     }
+
+
+    public function send(Request $request)
+    {
+
+        $data = $request->only(['from', 'to']);
+        $data['to'] .= ' 23:59:59';
+
+        $subscribers = SubscribersRepository::search($data);
+
+        return view('home', compact('subscribers', 'data'));
+    }
+
+
+
+
 }

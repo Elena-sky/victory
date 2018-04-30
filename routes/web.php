@@ -25,3 +25,5 @@ Route::get('/banner',  function () {
 
 Route::post('/subscribers', 'SubscribersController@store')->name('subscribersStore');
 
+Route::post('/search-subscribers', 'SubscribersController@send')->name('subscribersSearch');
+

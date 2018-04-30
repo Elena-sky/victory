@@ -10,4 +10,14 @@ class SubscribersRepository
     {
         Subscribers::create($subscriber);
     }
+
+    public static function all()
+    {
+        return Subscribers::all();
+    }
+
+    public static function search($data)
+    {
+        return Subscribers::whereBetween('created_at', $data)->get();
+    }
 }
