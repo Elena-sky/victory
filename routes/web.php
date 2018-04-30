@@ -22,3 +22,6 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/banner',  function () {
     return view('bannerPage');
 });
+
+Route::post('/subscribers', 'SubscribersController@store')->name('subscribersStore');
+

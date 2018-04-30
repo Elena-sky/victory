@@ -4,6 +4,9 @@ namespace App\Http\Controllers;
 
 use App\Repositories\SubscribersRepository;
 use Illuminate\Http\Request;
+use App\Mail\SendMail;
+use Illuminate\Support\Facades\Mail;
+
 
 class SubscribersController extends Controller
 {
@@ -20,6 +23,9 @@ class SubscribersController extends Controller
 
         SubscribersRepository::save($subscriber);
 
+        // send doc1.docx
+        Mail::to($subscriber['email'])
+            ->send(new SendMail);
 
         return redirect('/');
     }
