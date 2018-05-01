@@ -47,6 +47,7 @@ body {
       padding: 15px 50px;
       background-color: #ce0808;
       text-transform: uppercase;
+      font-weight: bold;
       margin: 75px auto 0 auto; }
 
 .about-section {
@@ -128,6 +129,7 @@ body {
   font-size: 22px;
   padding: 0rem 2.778rem;
   color: #ffffff;
+  font-weight: bold;
   text-transform: uppercase; }
 
 .popup-form-section {
@@ -164,13 +166,14 @@ body {
 .popup-form-section .popup-form__submit {
   display: block;
   width: 300px;
+  font-weight: bold;
   margin: 0 auto 1rem auto; }
 .popup-form-section .popup-form__submit {
   text-transform: uppercase;
   background: #ce0808;
+  font-weight: bold;
   color: #ffffff;
   cursor: pointer; }
-
 
 #overlay {
   z-index: 3;
@@ -217,6 +220,7 @@ body {
   border-radius: 0px;
   background-color: #ce0808;
   font-size: 22px;
+  font-weight: bold;
   padding: 0rem 2.778rem;
   width: 200px;
   height: 50px;
@@ -242,6 +246,7 @@ body {
   font-size: 22px;
   padding: 0rem 2.778rem;
   width: 200px;
+  font-weight: bold;
   height: 50px;
   margin-top: 40px;
   color: #ffffff;  }
