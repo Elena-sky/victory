@@ -43,16 +43,16 @@
                     <div class="navbar-collapse collapse" id="navbarsExampleDefault" style="">
                         <ul class="navbar-nav nav-block">
                             <li class="nav-item active nav-block__nav-item">
-                                <a class="nav-link disabled nav-block__nav-link" href="#about-section">about</a>
+                                <a class="nav-link disabled nav-block__nav-link" id="about-menu-text" href="#about-section">about</a>
                             </li>
                             <li class="nav-item nav nav-block__nav-item">
-                                <a class="nav-link disabled nav-block__nav-link" href="#forpublishers-section">for publishers</a>
+                                <a class="nav-link disabled nav-block__nav-link"  id="forpublishers-menu-text"  href="#forpublishers-section">for publishers</a>
                             </li>
                             <li class="nav-item nav-block__nav-item">
-                                <a class="nav-link disabled nav-block__nav-link" href="#foradvertisers-section">for advertisers</a>
+                                <a class="nav-link disabled nav-block__nav-link" id="foradvertisers-menu-text" href="#foradvertisers-section">for advertisers</a>
                             </li>
                             <li class="nav-item nav-block__nav-item">
-                                <a class="nav-link disabled nav-block__nav-link" href="#contacts-section">contacts</a>
+                                <a class="nav-link disabled nav-block__nav-link" id="contacts-menu-text" href="#contacts-section">contacts</a>
                             </li>
 
 
@@ -116,5 +116,8 @@
 </body>
 
 <script src="{{ asset("js/script.js") }}"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+
 
 </html>

@@ -39,7 +39,8 @@
         <section id="forpublishers-section" class="forpublishers-section">
             <div class="container">
                 <div class="background-text change" id="change">
-                    <p><span>FOR</span></br><span>PUBLISHERS</span></p>
+                    <p><span>FOR</span></br></span>PUBLISHERS</p>
+
                 </div>
                 <div class="row forpublishers-row-one">
                     <div class="col-md-6 offset-md-6 forpublishers-row-one__text">

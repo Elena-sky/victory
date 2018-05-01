@@ -41,6 +41,7 @@ $(document).ready(function () {
         } else if (scrollPos >= top2 && scrollPos < top3) {
             $('#about-menu-text').css('color', '#fff');
             $('#forpublishers-menu-text').css('color', '#333333');
+            $('#foradvertisers-menu-text').css('color', '#333333');
         } else if (scrollPos >= top3 && scrollPos < top4) {
             $('#forpublishers-menu-text').css('color', '#cc0000');
             $('#about-menu-text').css('color', '#333333');
