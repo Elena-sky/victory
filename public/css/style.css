@@ -208,7 +208,7 @@ body {
   padding-left: 0.5556rem;
   border: 2px solid;
   height: 45px;
-  width: 500px;}
+  width: 100%;}
 .login-section .login-row .login-form__textarea{
   height: 95px;
   margin-bottom: 40px;
@@ -247,8 +247,7 @@ body {
   color: #ffffff;  }
 
 .home {
-  margin-top: 70px
-}
+  margin-top: 70px;  }
 
 .register-title {
   font-size: 15px;
@@ -270,7 +269,6 @@ body {
   font-family: OpenSans-Bold;
   src: url('/public/fonts/openSans/OpenSans-Bold.ttf');
 }
-
 
 @font-face{
   font-family: OpenSans-ExtraBold;

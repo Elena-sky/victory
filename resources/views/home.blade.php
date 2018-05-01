@@ -11,42 +11,39 @@
             </div>
         @endif
 
-        <!-- login form -->
-        <div class="row login-row">
-            <div class="col-md-6 offset-md-3 login-row__form">
-                <form  class="login-form" method="POST" action="{{route('subscribersSearch')}}">
-                    {{ csrf_field() }}
+            <!-- login form -->
+            <div class="row login-row">
+                <div class="col-md-6 offset-md-3 login-row__form text-center ">
+                    <form method="POST" action="{{route('subscribersSearch')}}">
+                        {{ csrf_field() }}
 
-                    <div class="offset-md-1 form-group">
-                        <div class="col-md-6">
+                        <div class="col-md-12 form-group">
                             <input data-date-format="yyyy-mm-dd" id="datepicker_from" class="login-form__input" name="from" placeholder="From" required>
-                        </div>
-                    </div>
 
-                    <div class="offset-md-1 form-group">
-                        <div class="col-md-6">
                             <input data-date-format="yyyy-mm-dd" id="datepicker_to" class="login-form__input" name="to" placeholder="To" required>
-                        </div>
-                    </div>
 
-                    <div class="offset-md-1 form-group">
-                        <div class="col-md-6">
                             <textarea name="text_message" rows="10" cols="70" id="comment"
                                       class="login-form__input login-form__textarea" placeholder="Comment..."></textarea>
                         </div>
-                    </div>
 
-                    <input class="offset-md-5 login-form__submit btn" type="submit" value="SEND"/>
-                </form>
+                        <input class="col-md-12 login-form__submit btn" type="submit" value="SEND"/>
+                    </form>
 
+                </div>
             </div>
-        </div>
-        <!-- End login form -->
+            <!-- End login form -->
 
+            <div class="col-md-6">
+                <h2>List of subscribers</h2>
 
-            <h2>List of subscribers</h2>
-            <p ><b>Period</b>:<span>from: {{$data['from']}} </span>  <span>to: {{$data['to']}}</span> </p>
-
+                <b>Period:</b>
+                <div class="col-sm-6 offset-md-1">
+                    <span>from: {{$data['from']}} </span>
+                </div>
+                <div class="col-sm-6 offset-md-1">
+                    <span>to: {{$data['to']}}</span>
+                </div>
+            </div>
 
 
             <!-- table -->
