@@ -1,7 +1,11 @@
+@font-face {
+  font-family: 'TTNorms-Black';
+  src: url("/public/fonts/ttNorms/TTNorms-Black.otf") format("otf"); }
+
 body {
   font-size: 18px;
   color: #333333;
-  /*font-family: "Open Sans", Arial, sans-serif; */
+  font-family: "Open Sans", Arial, sans-serif;
 }
 
 .header-section {
@@ -186,7 +190,7 @@ body {
 .login-section {
   background-color: #fffff;
   color: #333333;
-  padding-top: 80px;
+  padding-top: 50px;
   padding-bottom: 9.722rem; }
 .login-section .background-text {
   position: relative;
@@ -207,7 +211,9 @@ body {
   height: 45px;
   width: 500px;}
 .login-section .login-row .login-form__textarea{
-  height: 95px;  }
+  height: 95px;
+  margin-bottom: 40px;
+}
 .login-section .login-form__submit {
   border-radius: 0px;
   background-color: #ce0808;
@@ -216,6 +222,7 @@ body {
   width: 200px;
   height: 50px;
   margin-top: 40px;
+  margin-bottom: 80px;
   color: #ffffff;  }
 .login-section .login-form {
   margin-top: 120px;  }
@@ -242,4 +249,31 @@ body {
 
 .home {
   margin-top: 70px
+}
+
+.register-title {
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #333333;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+
+::placeholder {
+  color: #333333;}
+
+.reg-agree{
+  color: #cc0000;
+}
+
+@font-face{
+  font-family: OpenSans-Bold;
+  src: url('/public/fonts/openSans/OpenSans-Bold.ttf');
+}
+
+
+@font-face{
+  font-family: OpenSans-ExtraBold;
+  src: url('/public/fonts/openSans/OpenSans-ExtraBold.ttf');
 }

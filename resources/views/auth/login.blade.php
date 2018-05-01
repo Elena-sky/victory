@@ -13,40 +13,36 @@
 
             <!-- login form -->
             <div class="row login-row">
-                <div class="col-md-6 offset-md-3 login-row__form">
+                <div class="col-md-4 offset-md-4 login-row__form text-center">
                     <form  class="login-form" method="POST" action="{{ route('login') }}">
                         {{ csrf_field() }}
 
-                        <div class="offset-md-1 form-group{{ $errors->has('email') ? ' has-error' : '' }}">
-                            <div class="col-md-6">
-                                <input id="email" type="email" class="login-form__email" name="email" value="{{ old('email') }}" placeholder="Email *" required autofocus>
+                        <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
+                            <input id="email" type="email" class="login-form__email" name="email" value="{{ old('email') }}" placeholder="Email *" required autofocus>
 
-                                @if ($errors->has('email'))
-                                    <span class="help-block">
+                            @if ($errors->has('email'))
+                                <span class="help-block">
                                         <strong>{{ $errors->first('email') }}</strong>
                                     </span>
-                                @endif
-                            </div>
+                            @endif
                         </div>
 
-                        <div class="offset-md-1 form-group{{ $errors->has('password') ? ' has-error' : '' }}">
-                            <div class="col-md-6">
-                                <input id="password" type="password" class="login-form__name" name="password" placeholder="Password *" required>
+                        <div class="form-group{{ $errors->has('password') ? ' has-error' : '' }}">
+                            <input id="password" type="password" class="login-form__name" name="password" placeholder="Password *" required>
 
-                                @if ($errors->has('password'))
-                                    <span class="help-block">
+                            @if ($errors->has('password'))
+                                <span class="help-block">
                                         <strong>{{ $errors->first('password') }}</strong>
                                     </span>
-                                @endif
-                            </div>
+                            @endif
                         </div>
 
-                        <input class="offset-md-5 login-form__submit btn" type="submit" value="LOGIN"/>
+                        <input class="login-form__submit btn" type="submit" value="LOGIN"/>
                     </form>
-                    <h3>Don't have an account?</h3>
+                    <h5>Don't have an account?</h5>
 
                     <a href="{{ route('register') }}">
-                        <button class="register-form__submit btn">SIGN UP</button>
+                        <button class=" login-form__login btn">SIGN UP</button>
                     </a>
                 </div>
             </div>
