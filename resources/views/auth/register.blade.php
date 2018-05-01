@@ -94,11 +94,12 @@
 
                             <!-- End additional questions -->
 
-                            <div class="checkbox">
-                                <label>
-                                    <h5><input type="checkbox" name="agree"> I agree to <span class="reg-agree">Terms & Conditions</span></h5>
-                                </label>
-                            </div>
+                            <label class="cont">
+                                <h5>I agree to <span class="reg-agree">Terms & Conditions</span></h5>
+                                    <input type="checkbox" checked="checked">
+                                <span class="checkmark"></span>
+
+                            </label>
 
                             <input class="login-form__submit btn" type="submit" value="SIGN UP"/>
 
